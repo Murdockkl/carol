@@ -1,10 +1,3 @@
-/* =========================================================
-   PAINEL DE EDIÇÃO RÁPIDA — leia isto se quiser personalizar!
-   - Troque as fotos: procure por "POLAROID" no arquivo .html e
-     substitua a div de emoji por <img src="suafoto.jpg">.
-   - Troque a mensagem secreta: procure "MENSAGEM SECRETA" no .html.
-   - Troque a data de início da amizade: procure "DATA_INICIO" no .html (dentro do <script>).
-   ========================================================= */
 
   :root{
     --pink:#ff6ec7;
@@ -22,7 +15,7 @@
 
   body{
     margin:0;
-    font-family:"Comic Sans MS","Comic Neue",cursive,sans-serif;
+    font-family:"Comic Sans MS","Comic Neue";
     color:var(--deeppurple);
     background:linear-gradient(-45deg,var(--pink),var(--purple),var(--blue),var(--yellow));
     background-size:400% 400%;
